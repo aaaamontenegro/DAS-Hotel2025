@@ -23,24 +23,24 @@ namespace DAS_Hotel.App_Code.Models
 
         int id;
 
-        Cliente cliente { get; set; }
+       public Cliente cliente { get; set; }
 
-        Habitacion habitacion { get; set; }
+        public Habitacion habitacion { get; set; }
 
-        int CantNoches { get; set; }
+        public int CantNoches { get; set; }
 
         public double Total { 
           
             get
             {
 
-                if(habitacion.TipoHab == "sencilla")
+                if(habitacion.TipoHab == "Sencilla")
                 {
                     return HabSencilla * CantNoches;
-                } else if (habitacion.TipoHab == "doble")
+                } else if (habitacion.TipoHab == "Doble")
                 {
                     return HabDoble * CantNoches;
-                } else if (habitacion.TipoHab == "suite")
+                } else if (habitacion.TipoHab == "Suite")
                 {
                     return habSuite * CantNoches;
                 }

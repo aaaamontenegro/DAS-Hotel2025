@@ -10,10 +10,10 @@ namespace DAS_Hotel.App_Code.Models
 {
     class Cliente
     {
-        int Id { get; set; }
-        string Nombre { get; set; }
+        public int Id { get; set; }
+        public string Nombre { get; set; }
 
-        int Tel { get; set; }
+        public int Tel { get; set; }
 
         public Cliente (int id, string nombre, int tel)
         {

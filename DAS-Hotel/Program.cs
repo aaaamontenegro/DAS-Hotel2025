@@ -1,4 +1,5 @@
 ﻿using DAS_Hotel.App_Code.Models;
+using DAS_Hotel.BusinessLogic;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,18 +19,6 @@ namespace DAS_Hotel
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
-
-
-            Cliente  marlon = new Cliente(1, "Marln", 7749939);
-            Habitacion habitacion1 = new Habitacion(2, "sencilla", true);
-            Reservacion reservacion = new Reservacion(marlon, habitacion1, 20);
-
-
-            _ = MessageBox.Show("El total de la reserva " + reservacion.Total);
-            
-
-
-
 
         }
     }

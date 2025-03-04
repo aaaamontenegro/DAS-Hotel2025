@@ -14,11 +14,11 @@ namespace DAS_Hotel.App_Code.Models
         public string TipoHab { get; set; }
         public bool EstadoHab { get; set; }
 
-        public Habitacion (int NumeroHab, string TipoHab, bool EstadoHab)
+        public Habitacion (int NumeroHab, string TipoHab)
         { 
             this.NumeroHab = NumeroHab; 
             this.TipoHab = TipoHab; 
-            this.EstadoHab = EstadoHab; 
+            this.EstadoHab = false; 
 
         }
 
