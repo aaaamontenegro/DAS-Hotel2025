@@ -3,9 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
 /**
  * Esta clase se encarga de generar el modelo cliente. 
- * */
+ * Representa a un cliente de un hotel con su ID, nombre y número de teléfono.
+ * 
+ * La clase incluye propiedades para almacenar los datos del cliente, 
+ * y un constructor para inicializarlos.
+ */
 namespace DAS_Hotel.App_Code.Models
 {
     class Cliente

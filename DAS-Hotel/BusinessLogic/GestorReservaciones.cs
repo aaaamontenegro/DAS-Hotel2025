@@ -8,6 +8,10 @@ using System.Windows.Forms;
 
 namespace DAS_Hotel.BusinessLogic
 {
+    /// <summary>
+    /// Clase encargada de gestionar las reservaciones en el hotel.
+    /// Maneja Clientes, Reservas y el estado de las habitaciones.
+    /// </summary>
     class GestorReservaciones
     {
 
